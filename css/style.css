@@ -1,0 +1,27 @@
+.bg-green {
+  background-color: #009970;
+}
+
+.bg-green:hover {
+  background-color: #09c08f;
+}
+
+.btn {
+  transition: all 0.8s;
+}
+
+.btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.logo {
+  background: #009970;
+  border-radius: 7px;
+  font-size: 25px;
+  padding: 0.2em 1.5em;
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: all 0.25s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

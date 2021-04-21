@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+.productsHeader {
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .productsHeader {
+    font-size: 22px;
+  }
+}
+.categories {
+  border-radius: 6px;
+  background-color: #009970;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+}
+@media (min-width: 992px) {
+  .categories .navbar-brand {
+    display: none;
+  }
+}
+.categories ul {
+  list-style-type: none;
+}
+.categories ul li {
+  padding-top: 10px;
+}
+.categories ul a,
+.categories ul a:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ProductsDescription {
+  border-radius: 6px;
+  background-color: #009970;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+  font-size: 16px;
+  padding: 28px 8px;
+  margin-top: 11px;
+  margin-left: 14px;
+  margin-right: 14px;
+  flex-wrap: wrap;
+}
+
+.productFeatures li {
+  background-color: #ccc;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.productFeatures .active {
+  background-color: #009970;
+}
+.productFeatures .carousel-control-next,
+.productFeatures .carousel-control-prev {
+  color: red;
+}
+
+.types,
+.types1 {
+  border-radius: 6px;
+  background-color: #009970;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+}
+.types ul,
+.types1 ul {
+  list-style-type: none;
+}
+.types ul li,
+.types1 ul li {
+  padding-top: 7px;
+}
+.types ul a,
+.types ul a:hover,
+.types1 ul a,
+.types1 ul a:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.types1 ul li {
+  padding: 6px;
+}
+
+.types2 ul {
+  display: none;
+}
+.types2 a {
+  color: #009970;
+}
+
+@media (min-width: 576px) {
+  .types2 {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .types,
+.types1 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .types,
+.types1 {
+    display: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    position: fixed;
+    top: 20%;
+    right: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .main {
+    display: none;
+  }
+}
+.btn, .btn:hover {
+  background-color: #009970;
+  color: #fff;
+  border: 1px solid #EEE;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sidenav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.line {
+  padding: 0px;
+  margin: 6px;
+}
+
+.sidenav a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease-in-out;
+}
+
+.listData:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/*# sourceMappingURL=Home.css.map */
